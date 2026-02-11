@@ -1,0 +1,51 @@
+# Cursor Rules
+
+## Instructions
+
+- Record fixes for mistakes or corrections to avoid repetition in the `Lessons` section.
+- Organize thoughts and plan steps before starting a task in the `Scratchpad` section.
+- Clear old tasks if necessary.
+- Use todo markers for progress tracking:
+  - `[X]` Completed tasks
+  - `[ ]` Pending tasks
+- Update Scratchpad after completing subtasks.
+- Reflect and plan after milestones for better task management.
+- Always refer to Scratchpad before planning the next step.
+
+## Lessons
+
+
+## Scratchpad
+
+### Ecommerce + Admin Dashboard Development Steps (Amazon-like)
+
+**Tech Stack:** TypeScript, Next.js 15, Shadcn, Lucide, Zod, Zustand, Recharts, Resend, Uploadthing, Prisma, PostgreSQL, next-auth@beta, Stripe
+
+#### Phase 1: Foundation
+- [ ] Set up Prisma + PostgreSQL schema (users, products, categories, orders, cart, reviews)
+- [ ] Configure next-auth@beta (credentials, OAuth if needed)
+- [ ] Install & configure Shadcn, Lucide, Zod, Zustand
+- [ ] Create base layout, auth middleware, protected route patterns
+
+#### Phase 2: Core Ecommerce
+- [ ] Product catalog: listing, filtering, search, categories
+- [ ] Product detail page with image gallery (Uploadthing)
+- [ ] Cart with Zustand (persist to DB for logged-in users)
+- [ ] Checkout flow with Stripe (session creation, webhooks)
+- [ ] Order confirmation emails via Resend
+- [ ] User orders history & order detail pages
+
+#### Phase 3: Admin Dashboard
+- [ ] Admin layout & protected admin routes (role-based)
+- [ ] Products CRUD with Uploadthing for images
+- [ ] Categories management
+- [ ] Orders management: list, status updates, details
+- [ ] Users management (optional)
+- [ ] Dashboard overview with Recharts (sales, orders, top products)
+
+#### Phase 4: Polish & Extras
+- [ ] Reviews & ratings
+- [ ] Wishlist
+- [ ] Search (client + server)
+- [ ] SEO (metadata, sitemap)
+- [ ] Error boundaries, loading states, form validation (Zod)
