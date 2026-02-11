@@ -22,7 +22,7 @@
 **Tech Stack:** TypeScript, Next.js 15, Shadcn, Lucide, Zod, Zustand, Recharts, Resend, Uploadthing, Prisma, PostgreSQL, next-auth@beta, Stripe
 
 #### Phase 1: Foundation
-- [ ] Set up Prisma + PostgreSQL schema (users, products, categories, orders, cart, reviews)
+- [X] Set up Prisma + PostgreSQL schema (users, products, categories, orders, cart, reviews)
 - [ ] Configure next-auth@beta (credentials, OAuth if needed)
 - [ ] Install & configure Shadcn, Lucide, Zod, Zustand
 - [ ] Create base layout, auth middleware, protected route patterns
